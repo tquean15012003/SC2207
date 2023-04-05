@@ -9,8 +9,6 @@ CREATE TABLE Bookstore(
     PRIMARY KEY (storeID)
 );
 
-------------------------------------------
-
 CREATE TABLE StorePublication(
 	storePublicationID INT NOT NULL AUTO_INCREMENT,
 	quantity INT NOT NULL,
@@ -19,8 +17,6 @@ CREATE TABLE StorePublication(
     PRIMARY KEY (storePublicationID),
 	FOREIGN KEY (storeID) REFERENCES Bookstore(storeID)
 );
-
-------------------------------------------
 
 CREATE TABLE PriceHistory(
 	storePublicationID INT NOT NULL AUTO_INCREMENT,
@@ -31,19 +27,15 @@ CREATE TABLE PriceHistory(
 	FOREIGN KEY (storePublicationID) REFERENCES StorePublication(storePublicationID)
 );
 
-------------------------------------------
-
 CREATE TABLE Magazine(
 	publicationID INT NOT NULL,
 	issueNumber INT NOT NULL,
 	yearOfPublication YEAR NOT NULL,
-    title VARCHAR(100) NOT NULL,
+  title VARCHAR(100) NOT NULL,
 	publisher VARCHAR(100) NOT NULL,
-    UNIQUE(issueNumber),
-    PRIMARY KEY (publicationID)
+  UNIQUE(issueNumber),
+  PRIMARY KEY (publicationID)
 );
-
-------------------------------------------
 
 CREATE TABLE Book(
 	publicationID INT NOT NULL,
@@ -53,21 +45,18 @@ CREATE TABLE Book(
     PRIMARY KEY (publicationID)
 );
 
-------------------------------------------
-
 CREATE TABLE Customer(
 	customerID INT NOT NULL AUTO_INCREMENT,
 	name VARCHAR(100) NOT NULL,
     PRIMARY KEY (customerID)
 );
 
-------------------------------------------
-
 CREATE TABLE OrderMade (
 	orderID INT NOT NULL AUTO_INCREMENT,
 	address VARCHAR(100) NOT NULL,
 	shippingCost FLOAT NOT NULL,
 	timeCreated DATETIME NOT NULL, 
+	timeDelivery DATETIME NOT NULL, 
     customerID INT NOT NULL,
 	FOREIGN KEY (customerID) REFERENCES Customer(customerID),
     PRIMARY KEY (orderID)
@@ -99,4 +88,40 @@ CREATE TABLE Review (
     rating INT NOT NULL,
 	FOREIGN KEY (itemPurchasedID) REFERENCES ItemPurchased(itemPurchasedID),
     PRIMARY KEY (itemPurchasedID, timeCreated)
-)
+);
+
+CREATE TABLE Employee (
+	employeeID INT NOT NULL,
+	name VARCHAR(100) NOT NULL,
+	monthlySalary FLOAT NOT NULL,
+	PRIMARY KEY (employeeID)
+);
+
+CREATE TABLE BookstoreComplaint (
+	complaintID INT NOT NULL,
+	employeeID INT NOT NULL,
+	customerID INT NOT NULL,
+	storeID INT NOT NULL,
+	comment VARCHAR(300) NOT NULL,
+	FOREIGN KEY (employeeID) REFERENCES Employee(employeeID),
+	FOREIGN KEY (customerID) REFERENCES Customer(customerID),
+	FOREIGN KEY (storeID) REFERENCES Bookstore(storeID),
+	PRIMARY KEY (complaintID)
+);
+CREATE TABLE PublicationComplaint (
+	complaintID INT NOT NULL,
+	employeeID INT NOT NULL,
+	customerID INT NOT NULL,
+	publicationID INT NOT NULL,
+	comment VARCHAR(300) NOT NULL,
+	FOREIGN KEY (employeeID) REFERENCES Employee(employeeID),
+	FOREIGN KEY (customerID) REFERENCES Customer(customerID),
+	PRIMARY KEY (complaintID)
+);
+
+CREATE TABLE ComplaintStatus (
+	timestamp DATETIME NOT NULL,
+	complaintID INT NOT NULL,
+	status VARCHAR(100) NOT NULL,
+	PRIMARY KEY (timestamp, complaintID)
+);
