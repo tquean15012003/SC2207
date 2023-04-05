@@ -1,7 +1,7 @@
-SELECT e.name, e.employeeID, LatencyTime.avg_handling_time
+SELECT e.name AS 'Name', e.employeeID as 'Employee ID', Round(LatencyTime.avg_handling_time, 2) as 'Average handling time'
 FROM SC2207Lab5.Employee e
 INNER JOIN (
-    SELECT complaints.employeeID, AVG(TIMESTAMPDIFF(SECOND, cs_beinghandled.timestamp, cs_addressed.timestamp)) AS avg_handling_time
+    SELECT complaints.employeeID, AVG(TIMESTAMPDIFF(DAY, cs_beinghandled.timestamp, cs_addressed.timestamp)) AS avg_handling_time
     FROM (
         SELECT bc.employeeID, bc.complaintID FROM SC2207Lab5.BookstoreComplaint bc
         UNION
