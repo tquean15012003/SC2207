@@ -31,10 +31,10 @@ CREATE TABLE Magazine(
 	publicationID INT NOT NULL,
 	issueNumber INT NOT NULL,
 	yearOfPublication YEAR NOT NULL,
-  title VARCHAR(100) NOT NULL,
+  	title VARCHAR(100) NOT NULL,
 	publisher VARCHAR(100) NOT NULL,
-  UNIQUE(issueNumber),
-  PRIMARY KEY (publicationID)
+  	UNIQUE(issueNumber),
+  	PRIMARY KEY (publicationID)
 );
 
 CREATE TABLE Book(
@@ -55,8 +55,7 @@ CREATE TABLE OrderMade (
 	orderID INT NOT NULL AUTO_INCREMENT,
 	address VARCHAR(100) NOT NULL,
 	shippingCost FLOAT NOT NULL,
-	timeCreated DATETIME NOT NULL, 
-	timeDelivery DATETIME NOT NULL, 
+	timeCreated DATETIME NOT NULL,
     customerID INT NOT NULL,
 	FOREIGN KEY (customerID) REFERENCES Customer(customerID),
     PRIMARY KEY (orderID)
