@@ -43,3 +43,49 @@ INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, 
 INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (40, '2022-08-31 09:00:00', 'Good', 2);
 INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (41, '2022-08-31 09:00:00', 'Good', 5);
 INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (42, '2022-08-30 09:00:00', 'Good', 3);
+
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (202, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (203, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (204, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (205, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (206, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (207, '2022-08-20 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (208, '2022-08-24 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (209, '2022-08-24 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (210, '2022-08-15 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (211, '2022-08-13 09:00:00', 'Good', 5);
+
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (212, '2022-08-06 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (213, '2022-08-14 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (214, '2022-08-22 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (215, '2022-08-22 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (216, '2022-08-31 09:00:00', 'Good', 2);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (217, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (218, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (219, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (220, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (221, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (222, '2022-08-31 09:00:00', 'Good', 4);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (223, '2022-08-31 09:00:00', 'Good', 5);
+
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (224, '2022-08-30 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (225, '2022-08-30 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (226, '2022-08-30 09:00:00', 'Good', 4);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (227, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (228, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (229, '2022-08-31 09:00:00', 'Good', 3);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (230, '2022-08-31 09:00:00', 'Good', 2);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (231, '2022-08-31 09:00:00', 'Good', 4);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (232, '2022-08-31 09:00:00', 'Good', 3);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (233, '2022-08-31 09:00:00', 'Good', 5);
+
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (234, '2022-06-30 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (235, '2022-06-30 09:00:00', 'Good', 2);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (236, '2022-06-30 09:00:00', 'Good', 4);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (237, '2022-07-31 09:00:00', 'Good', 4);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (238, '2022-07-30 09:00:00', 'Good', 3);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (239, '2022-07-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (240, '2022-08-31 09:00:00', 'Good', 3);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (241, '2022-08-31 09:00:00', 'Good', 2);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (242, '2022-08-31 09:00:00', 'Good', 5);
+INSERT INTO SC2207Lab5.Review(itemPurchasedID, timeCreated, commentDescription, rating) VALUES (243, '2022-08-30 09:00:00', 'Good', 3);

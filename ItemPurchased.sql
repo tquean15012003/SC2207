@@ -199,3 +199,70 @@ INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderI
 INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 5, 7, 99);
 INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (20, 1, 12, 100);
 INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 5, 20, 100);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (15, 1, 1, 101);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (20, 1, 11, 102);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (30, 1, 21, 103);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (15, 1, 31, 104);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (20, 1, 41, 105);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (30, 1, 31, 106);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (15, 1, 34, 107);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (20, 1, 24, 108);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (30, 1, 21, 109);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (54, 1, 11, 109);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 11, 110);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (45, 1, 1, 111);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (30, 1, 21, 112);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (21, 1, 31, 113);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (22, 1, 41, 114);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (41, 1, 14, 115);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 4, 116);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 14, 116);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 24, 117);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (21, 1, 24, 118);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 1, 20, 118);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 1, 14, 118);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (13, 1, 24, 119);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (23, 1, 14, 120);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 23, 121);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (42, 1, 4, 122);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (16, 1, 44, 123);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (56, 1, 26, 124);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 1, 27, 125);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (8, 1, 28, 126);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (7, 1, 44, 127);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (15, 1, 30, 127);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (13, 1, 24, 128);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (23, 1, 14, 129);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 1, 23, 130);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (42, 1, 4, 131);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (16, 1, 44, 132);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (56, 1, 26, 133);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (15, 1, 27, 134);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (41, 1, 28, 135);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (34, 1, 4, 136);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (73, 1, 21, 136);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 10, 2, 137);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 10, 12, 137);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 10, 22, 137);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 10, 32, 137);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 10, 42, 137);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 2, 9, 138);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (12, 2, 19, 138);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 2, 29, 138);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 2, 39, 138);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 3, 49, 138);
+
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 1, 1, 139);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 2, 24, 139);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 3, 19, 139);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 10, 11, 140);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 12, 34, 140);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 14, 39, 140);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 20, 31, 141);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 22, 44, 141);
+INSERT INTO SC2207Lab5.ItemPurchased(price, quantity, storePublicationID, orderID) VALUES (10, 24, 49, 141);
