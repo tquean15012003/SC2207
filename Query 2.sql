@@ -17,4 +17,5 @@ FROM (
 JOIN SC2207Lab5.StorePublication sp ON pub.publicationID = sp.publicationID
 JOIN SC2207Lab5.ItemPurchased ip ON sp.storePublicationID = ip.storePublicationID
 JOIN SC2207Lab5.Review r ON ip.itemPurchasedID = r.itemPurchasedID
-GROUP BY pub.title;
+GROUP BY pub.title
+ORDER BY AVG(r.rating) DESC;
